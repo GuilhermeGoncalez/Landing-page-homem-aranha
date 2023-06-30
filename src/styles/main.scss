@@ -1,0 +1,48 @@
+@use 'header';
+@use 'hero';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+
+body {
+    background-image: url(../../src/images/background.png);
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: Spider;
+    src: url(../../fonts/HOMOARAK.TTF);
+}
+
+.title {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.text--big {
+    font-size: 20px;
+    color: white;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    font-size: 18px;
+    color: #F4042E;
+    background-color: #fff;
+    text-transform: uppercase;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 4px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border: 1px solid #fff;
+}
